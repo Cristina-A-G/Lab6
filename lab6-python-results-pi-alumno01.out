@@ -1,0 +1,35 @@
+[0m[0K
+         Computing pi in serial:[0K
+[0K
+         For 1000000 trials, pi = 3.140128[0K
+[0K
+942 ms ± 10.3 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)[0K
+[0K
+         Computing pi in serial with numpy w/o arrays:[0K
+[0K
+         For 1000000 trials, pi = 3.142112[0K
+[0K
+1.08 s ± 97.2 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)[0K
+[0K
+         Computing pi in serial with numpy w/ arrays:[0K
+[0K
+         For 1000000 trials, pi = 3.140672[0K
+[0K
+28.9 ms ± 620 µs per loop (mean ± std. dev. of 3 runs, 10 loops each)[0K
+[0K
+         Computing pi with numba:[0K
+[0K
+         For 1000000 trials, pi = 3.142000[0K
+[0K
+9.47 ms ± 276 µs per loop (mean ± std. dev. of 3 runs, 100 loops each)[0K
+[0K
+         Computing pi in parallel version with numba:[0K
+[0K
+         For 1000000 trials, pi = 3.141788[0K
+[0K
+3.32 ms ± 1.37 ms per loop (mean ± std. dev. of 3 runs, 100 loops each)[0K
+/usr/local/lib/python3.7/site-packages/nbformat/__init__.py:93: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard erro[0Kr
+ in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versi[0Ko
+ns of nbformat are fixing this issue transparently, and will stop doing so in the future.[0K
+  validate(nb)[0K
+[0K
